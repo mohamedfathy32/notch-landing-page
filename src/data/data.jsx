@@ -9,6 +9,11 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter';
 import FlagIcon from '@mui/icons-material/Flag';
+import GoPower30 from "../assets/GoPower__30w-removebg-preview.png";
+import GoPower20 from "../assets/GoPower__20W-removebg-preview.png";
+import GoPower__Car_38W from "../assets/GoPower__Car_38W-removebg-preview.png";
+
+
 export const teamInformation = [
   {
     quote:
@@ -81,5 +86,26 @@ export const vision = [
     title: "Goals",
     description:
       "Our goal is to lead the industry through innovation, constantly pushing boundaries and redefining standards. We strive to create impactful solutions that drive success and growth for our clients, ensuring their continued competitiveness in a fast-changing world.",
+  },
+];
+
+export const products = [
+  {
+    title: "GoPower 30W",
+    image: GoPower30,
+    desc: "The GoPower 30W charger provides fast and efficient charging for your devices.",
+    price: 400,
+  },
+  {
+    title: "GoPower 20W",
+    image: GoPower20,
+    desc: "The GoPower 20W charger is compact and perfect for everyday use.",
+    price: 75,
+  },
+  {
+    title: "GoPower Car 38W",
+    image: GoPower__Car_38W,
+    desc: "Charge your devices in the car with the GoPower Car 38W charger.",
+    price: 120,
   },
 ];

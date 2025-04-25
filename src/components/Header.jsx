@@ -5,7 +5,7 @@ import Notch from '../assets/Notch.webp';
 const navLinks = [
   { title: 'Home', path: '#' },
   { title: 'Services', path: '#services' },
-  // { title: 'Work', path: '#work' },
+  { title: 'Product', path: '#Product' },
   { title: 'Team', path: '#team' },
   { title: 'Vision', path: '#vision' },
   { title: 'Contact', path: '#contact' }

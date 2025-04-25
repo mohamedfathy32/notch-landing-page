@@ -1,9 +1,10 @@
 import HeroSection from '../components/HeroSection';
 import Services from '../components/Services';
-import Work from '../components/Work';
+import Product from '../components/Product';
 import Team from '../components/Team';
 import Contact from '../components/Contact';
 import Vision from '../components/Vision';
+import BackgroundGradientDemo from '../components/CardProduct';
 
 const HomePage = () => {
   return (
@@ -11,7 +12,8 @@ const HomePage = () => {
       <main>
         <HeroSection />
         <Services />
-        {/* <Work /> */}
+        <Product />
+        
         <Team autoplay={true} />
         <Vision />
         <Contact />
